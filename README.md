@@ -1,3 +1,5 @@
+Todo list using react to add and remove items. 
+
 The app has been hosted at : https://secure-castle-54988.herokuapp.com/
 
 
