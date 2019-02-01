@@ -18,7 +18,7 @@ class App extends Component {
   	this.removeTodo = this.removeTodo.bind(this);
   }
   addTodo(todoText) {
-  	let todos = this.state.todos.slice(); //grabs the current state of todos 
+  	let todos = this.state.todos; //grabs the current state of todos 
   	todos.push({id: this.state.nextId,text: todoText});
   	this.setState({
   		todos: todos,
