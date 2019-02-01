@@ -10,7 +10,7 @@ export default class TodoItem extends React.Component {
 		return(
 			<div className="todoWrapper">
 				<button className="removeTodo"
-								size="sm" onClick={(e) => this.removeTodo(this.props.id)}>&times;</button>{this.props.todo.text}
+								size="sm" onClick={() => this.removeTodo(this.props.id)}>&times;</button>{this.props.todo.text}
 			</div>
 			);
 	}
