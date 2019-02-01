@@ -1,3 +1,8 @@
+Todo list using react to add and remove items. 
+
+The app has been hosted at : https://secure-castle-54988.herokuapp.com/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
