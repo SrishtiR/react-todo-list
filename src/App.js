@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="todo-wrapper">
+        <div className="to-do-list">
         <Header/>
         <TodoInput todoText="" addTodo={this.addTodo}/>
         <ul>
