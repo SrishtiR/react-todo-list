@@ -8,9 +8,9 @@ class App extends Component {
   	super(props);
   	this.state = {
   		todos: [
-  		{id:0,text:"Make dinner tonight"},
-  		{id:1,text:"Fold the laundry"},
-  		{id:2,text:"Learn to make a React app!"}
+  		{id:0,text:"Finish algos assignment"},
+  		{id:1,text:"Clean room"},
+  		{id:2,text:"Finish react app"}
   		],
   		nextId:3
   	}
